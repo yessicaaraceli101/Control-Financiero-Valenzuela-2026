@@ -1,0 +1,145 @@
+/* =====================
+   RESET GENERAL
+===================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f4f7fb;
+  color: #1f2937;
+  padding: 24px;
+}
+
+/* =====================
+   TÍTULO
+===================== */
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/* =====================
+   MES
+===================== */
+.mes {
+  max-width: 1100px;
+  margin: 32px auto 16px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* =====================
+   GRID TARJETAS
+===================== */
+.cards {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+/* =====================
+   TARJETA BASE
+===================== */
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  min-height: 120px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  box-shadow: 0 6px 18px rgba(0,0,0,0.10);
+}
+
+.card span {
+  display: block;
+  margin-top: 8px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* =====================
+   COLORES
+===================== */
+.card.ingresos {
+  border-top: 4px solid #1e88e5;
+}
+.card.ingresos span {
+  color: #1e88e5;
+}
+
+.card.egresos {
+  border-top: 4px solid #f9a825;
+}
+.card.egresos span {
+  color: #f9a825;
+}
+
+.card.resultado {
+  border-top: 4px solid #6a1b9a;
+}
+.card.resultado span {
+  color: #6a1b9a;
+}
+
+.card.pendientes {
+  border-top: 4px solid #e53935;
+}
+.card.pendientes span {
+  color: #e53935;
+}
+
+/* =====================
+   GRÁFICO (TAMAÑO NORMAL)
+===================== */
+.charts {
+  max-width: 1100px;
+  height: 380px;          /* 👈 tamaño correcto */
+  margin: 60px auto;
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 22px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.charts canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* =====================
+   RESPONSIVE (MÓVIL)
+===================== */
+@media (max-width: 768px) {
+  body {
+    padding: 16px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .mes {
+    font-size: 20px;
+  }
+
+  .card span {
+    font-size: 20px;
+  }
+
+  .charts {
+    height: 260px;       /* 👈 más bajo en celular */
+    padding: 16px;
+  }
+}
