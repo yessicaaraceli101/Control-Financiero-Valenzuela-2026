@@ -1,9 +1,9 @@
 const datos = {
   2026: {
     enero: {
-      ingresos: 19178000,
-      egresos: 7564500,
-      pendiente: 12535000
+      ingresos: 27373000,
+      egresos: 10688200,
+      pendiente: 5530000
     }
   }
 };
