@@ -6,9 +6,9 @@ const datos = {
       pendiente: 1430000
     },
     febrero: {
-      ingresos: 23525000,   // 👈 poné tus valores reales
-      egresos: 13595975,
-      pendiente: 7985000
+      ingresos: 23915000,   
+      egresos: 13644975,
+      pendiente: 7725000
     }
   }
 };
