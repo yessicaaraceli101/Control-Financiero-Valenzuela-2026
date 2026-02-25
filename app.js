@@ -4,6 +4,11 @@ const datos = {
       ingresos: 31166000,
       egresos: 10877200,
       pendiente: 1430000
+    },
+    febrero: {
+      ingresos: 23525000,   // 👈 poné tus valores reales
+      egresos: 13595975,
+      pendiente: 7985000
     }
   }
 };
