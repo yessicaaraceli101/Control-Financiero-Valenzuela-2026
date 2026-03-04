@@ -6,9 +6,9 @@ const datos = {
       pendiente: 1430000
     },
     febrero: {
-      ingresos: 23915000,   
-      egresos: 13794975,
-      pendiente: 7725000
+      ingresos: 27728000,   
+      egresos: 14467975,
+      pendiente: 3405000
     }
   }
 };
