@@ -9,6 +9,11 @@ const datos = {
       ingresos: 27728000,   
       egresos: 14467975,
       pendiente: 3405000
+    },
+    marzo: {
+      ingresos: 33335000,
+      egresos: 12990960,
+      pendiente: 3085000
     }
   }
 };
