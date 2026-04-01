@@ -12,7 +12,7 @@ const datos = {
     },
     marzo: {
       ingresos: 33595000,
-      egresos: 13240960,
+      egresos: 23249960,
       pendiente: 2695000
     }
   }
