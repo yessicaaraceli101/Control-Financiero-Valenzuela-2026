@@ -16,9 +16,9 @@ const datos = {
       pendiente: 2695000
     },
     abril: {
-      ingresos: 19208000,
-      egresos: 14087136,
-      pendiente: 13540000
+      ingresos: 24213000,
+      egresos: 16793411,
+      pendiente: 9025000
     }
   }
 };
